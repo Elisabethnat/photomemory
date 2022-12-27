@@ -140,6 +140,8 @@ h2 {
 }
 
 /* == ===  S E C C I O N   M A I N   I N D E X  === == */
+
+
 .main {
   grid-area: main;
 }
@@ -156,10 +158,10 @@ h2 {
   box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 10px;
 }
 
-iframe{margin-left: 250px;
+/*iframe{margin-left: 250px;
   margin-top: 80px;
 
-}
+}*/
 
 .service .fa-solid {
   font-size: 35px;
@@ -288,7 +290,7 @@ iframe{margin-left: 250px;
 }
 
 .main {
-  margin: 0 60px;
+  margin:0px;
 }
 
 
@@ -350,8 +352,8 @@ iframe{margin-left: 250px;
 /* --- == ===  S E C C I O N   M A I N  S E R V I C I O S  === == --- */
 
 .photo15 > div img {
-  width: 600px;
-  height: 400px;
+  width: 300px;
+  height: 200px;
 }
 
 .photo15 > div {
@@ -370,7 +372,7 @@ iframe{margin-left: 250px;
 }
 
 .mamaprimeriza > div img {
-  width: 600px;
+  width: 300px;
   height: 200px;
 }
 
