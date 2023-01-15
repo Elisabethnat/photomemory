@@ -35,56 +35,47 @@
         </nav>
       </header>
 
-      <!-- SECCION PRICNCIPAL -->
+      <!-- SECCION PRINCIPAL -->
       <form action="https://formspree.io/f/mdojprey" method="POST"></form>
-      <main class="main">
-        <h1 class="tituloSection">Contacto</h1>
-        <section class="container">
-
-          <article>
-            <form action="#">
-              <label for="nombre">Ingrese su nombre</label><br>
-              <input type="text" name="nombre" /><br>
-              
-              <label for="email">Ingrese su email</label><br>
-              <input type="email" name="email" /><br>
-              <div>
-                <label for="">Comentarios</label><br>
-                <textarea name="comentarios"></textarea>
-            </div><br>
-              <div>
-                <p>Selecciona el género</p><br>
-                <label
-                  >Masculino
-                  <input type="radio" name="genero" value="masculino" />
-                </label>
-                <label
-                  >Femenino
-                  <input type="radio" name="genero" value="femenino" />
-                </label>
-              </div><br>
-
-              <div>
-                <p>Seleccione el día que desee ser contactado</p><br>
-                <select name="dia" id=""><br>
-                  <option value="lunes">Lunes</option>
-                  <option value="martes">Martes</option>
-                  <option value="miercoles">Miércoles</option>
-                  <option value="jueves">Jueves</option>
-                  <option value="viernes">Viernes</option>
-                </select>
-              </div><br>
-
-              <div>
-                <p>Desea recibir información sobre nuestras ofertas</p><br>
-                <input type="checkbox" name="acepta" value="1" />
-                <input type="submit" value="Enviar" />
-                <input type="reset" value="Limpiar formulario" />
+        <main class="main">
+      <section class="container-xxl py-3">
+        <div class="container">
+          <div class="text-center">
+            <h1 class="tituloSection">Contactanos</h1> 
+          </div>
+          <div class="row">
+            <article class="col-12 text-center">
+              <p class="fs-5">¡Envianos tus comentarios!</p>
+              <p class="fs-5 mb-5">Para más información podés contactarnos en <a href="mailto:photomemory@gmail.com"></a>photomemory@gmail.com</p>
+            </article>
+            <article class="col-12 col-lg-6 order-lg-1">
+              <form action="">
+                <div class="mb-3">
+                  <label class="form-label fw-bold" for="name">Nombre:</label>
+                  <input class="form-control" id="name" name="name" type="text" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label fw-bold" for="email">Email:</label>
+                  <input class="form-control" id="email" name="email" type="email" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label fw-bold" for="comments">Comentarios:</label>
+                  <textarea rows="6" class="form-control" id="comments" name="" placeholder="Ingresa tu comentario o pedido " required></textarea>
+                </div>
+                <div class="mb-4">
+                  <input class="btn btn-warning py-3 px-5 mt-2" type="submit"> 
+                </div>
+              </form>
+            </article>
+            <article class="col-12 col-lg-6">
+              <div class="ratio ratio-16x9 mb-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.041942576929!2d-58.408218784261756!3d-34.57780526363558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb564d39f2015%3A0xc766ef54b8cc173d!2sCastex%2C%20C1425%20CABA!5e0!3m2!1ses!2sar!4v1673806281378!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
-            </form>
-          </article>
-        </section>
-      </main>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
 
       <!-- SECCION PIE DE PAGINA -->
       <footer class="footer footerSection">
