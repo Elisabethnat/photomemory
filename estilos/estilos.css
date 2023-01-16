@@ -84,6 +84,11 @@ h2 {
   color: #ffffff;
 }
 
+.header nav ul li a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
 .logo a {
   list-style: none;
   text-decoration: none;
@@ -96,6 +101,8 @@ h2 {
   letter-spacing: 2px;
   font-family: "Cormorant Garamond", serif;
 }
+
+
 
 .hero {
   width: 100%;
@@ -142,42 +149,6 @@ h2 {
 /* == ===  S E C C I O N   M A I N   I N D E X  === == */
 
 
-.main {
-  grid-area: main;
-}
-
-.services-wrapper {
-  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
-}
-
-.service {
-  background-color: var(--whitecolor);
-  padding: 2rem 1rem;
-  box-sizing: 2px #00000056;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 10px;
-}
-
-
-
-.service .fa-solid {
-  font-size: 35px;
-  color: #128b28;
-  margin-bottom: 10px;
-}
-
-.service h3 {
-  margin: 12px 0;
-  color:#128b28;
-  font-weight: 600;
-  text-align: center;
-}
-
-.service p {
-  color:rgb(79, 77, 77);
-}
-
-
 .testimonial-item img {
   width: 150px;
   height: 150px;
@@ -210,7 +181,7 @@ h2 {
 }
 
 .testimonial-info p {
-  color: var(--darkgreen);
+  color: grey;
   font-style: italic;
   line-height: 1.3rem;
   margin-bottom: 1rem;
@@ -218,7 +189,7 @@ h2 {
 }
 
 .testimonial-info h4 {
-  color: var(--namecolor);
+  color: orangered;
   line-height: 1.3rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -348,8 +319,43 @@ h2 {
 
 
 /* --- == ===  S E C C I O N   M A I N  S E R V I C I O S  === == --- */
+.main {
+  grid-area: main;
+}
 
-.photo15 > div img {
+.services-wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+}
+
+.service {
+  background-color: var(--whitecolor);
+  padding: 2rem 1rem;
+  box-sizing: 2px #00000056;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 10px;
+}
+
+
+
+.service .fa-solid {
+  font-size: 35px;
+  color: orangered;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  margin: 12px 0;
+  color: orangered;
+  font-weight: 600;
+  text-align: center;
+}
+
+.service p {
+  color:rgb(79, 77, 77);
+}
+
+
+/*.photo15 > div img {
   width: 300px;
   height: 200px;
 }
@@ -389,7 +395,7 @@ h2 {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-}
+}*/
 
 /* --- == ===  S E C C I O N   F O O T E R  === == --- */
 
